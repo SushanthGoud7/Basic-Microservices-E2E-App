@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+  application:
+    name: CITIZEN-SERVICE
+    
+server:
+  port: 8050
